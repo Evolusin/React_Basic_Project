@@ -8,7 +8,7 @@ function ExpenseItem(props) {
   const [title, setTitle] = useState(props.title);
 
   function clickHandler() {
-    setTitle(Math.floor(Math.random() * 100));
+    setTitle('Updated');
   }
 
   return (
