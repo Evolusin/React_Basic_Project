@@ -1,9 +1,10 @@
 import './NewExpense.css';
+import ExpesneForm from './ExpenseForm';
 
 function NewExpanse() {
   return (
-    <div className='new-expanse'>
-      
+    <div className='new-expense'>
+      <ExpesneForm/>
     </div>
   );
 }
